@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= title %>
+  </title>
+  <link rel='stylesheet' href='./content/app.css' />
+  <link rel="stylesheet" href="./@fortawesome/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+</head>
+
+<body >
+  <!-- Nav Bar Section -->
+
+  <nav class="navbar navbar-expand-lg navbar font-weight-bold bg-danger">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/"><img src="./assets/images/KDP_logo.jpg" width="100px"></a>
+      <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/"  ><i class="fas fa-home fa-lg"></i>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about" > <i class="fas fa-user-check fa-lg"></i> About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/projects"><i class="fas fa-info fa-lg"></i>Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/services"> <i class="fas fa-map fa-lg"></i>Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact"><i class="fas fa-phone fa-lg"></i>Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Nav Bar Section -->
+
+  <div class="container">
+    <h1>
+      <%= title %>
+    </h1>
+    <style>p {text-align: center;}</style>
+    <h4><p>Welcome to KDP IT Solution.
+      <p>We are here to help all your IT need. 
+      <p><B>MISSION</B>
+                <P><i>Mission to focus on client’s need, providing services on time…</i></P>
+    </p></h4>
+  </div>
+
+  <!-- Bottom section -->
+  <nav class="navbar fixed-bottom navbar-dark bg-danger">
+    
+    <div class="container-fluid">
+     
+      <a class="navbar-brand" href="#">Copyright &copy; 2021 - KDP IT SOLUTION</a><a href="https://www.linkedin.com/in/kdpatel2021" target="_blank"><img src="./assets/images/linkdin.png" width="50px" ></a>
+    </div>
+  </nav>
+  <!-- Bottom section -->
+
+
+
+  <!-- Javascript section -->
+  <script src="./scripts/app.js"></script>
+  <script src="./jquery/dist/jquery.min.js"></script>
+  <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
